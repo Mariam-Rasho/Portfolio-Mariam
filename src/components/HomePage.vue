@@ -24,7 +24,7 @@
           </v-col>
         </v-row>
       <v-col class="mt-16">
-            <v-btn rounded="xl" size="large" class="text-blue-lighten-5 bg-indigo-lighten-1 text-h6" @click="downloadCV">mmm</v-btn><a class="text-blue-lighten-5" href="/Mariam Rasho(cv).pdf">Download CV</a>
+            <v-btn rounded="xl" size="large" class="text-blue-lighten-5 bg-indigo-lighten-1 text-h6" href="/Mariam Rasho(cv).pdf" >mmm</v-btn><a class="text-blue-lighten-5" href="/Mariam Rasho(cv).pdf">Download CV</a>
           </v-col>
     </v-responsive>
   </v-container>
@@ -32,10 +32,10 @@
 
 <script setup>
 import VueTypewriterEffect from "vue-typewriter-effect";
-function downloadCV() {
-  window.location.href = '/Mariam Rasho(cv).pdf';
-      // window.open('/Mariam Rasho(cv).pdf', '_blank'); // فتح الرابط في نافذة جديدة
-    }
+// function downloadCV() {
+//   window.location.href = '/Mariam Rasho(cv).pdf';
+//       // window.open('/Mariam Rasho(cv).pdf', '_blank'); // فتح الرابط في نافذة جديدة
+//     }
 </script>
 <style>
 
