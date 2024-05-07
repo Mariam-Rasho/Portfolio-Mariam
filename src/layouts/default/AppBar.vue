@@ -33,7 +33,7 @@
     >
     </v-app-bar-nav-icon>
   </template>
-  <v-list class="mt-2 text-center text-white"  style="background-color: transparent;">
+  <v-list class="mt-2 text-center text-white">
 
       <v-btn variant="text" to="Home">
         Home
@@ -61,7 +61,7 @@ About
   //
 </script>
 <style>
-.v-app-bar  {
+.v-app-bar ,.v-list {
 max-width: 100vw !important;
   background: linear-gradient(to top left,#3c4677,#8458aa ) !important;
   backdrop-filter: blur(18px) !important;
