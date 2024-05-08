@@ -282,11 +282,11 @@
         :items-per-page="itemsPerPage"
       >
         <template v-slot:header="{ page, pageCount, prevPage, nextPage }">
-          <h1 class="text-h4 font-weight-bold d-flex justify-space-between ma-16 align-center">
-            <div class="text-truncate text-indigo-lighten-1">
+          <h1 class="text-md-h4 font-weight-bold d-flex justify-space-between ma-md-16  my-6 align-center">
+            <div class="text-truncate text-indigo-lighten-1 text-h6 text-md-h4"  data-aos="fade-right" data-aos-duration="2000">
               My Project
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center" data-aos="fade-left" data-aos-duration="2000">
               <v-btn
                 class="me-8"
                 variant="text"
@@ -315,14 +315,17 @@
           </h1>
         </template>
         <template v-slot:default="{ items }">
-          <v-row class="w-75 mx-auto" align="center" justify="center">
+          <v-row class="w-md-75 mx-auto mt-md-16 pt-16" align="center" justify="center">
             <v-col
               v-for="(item, i) in items"
               :key="i"
               cols="12"
               md="4"
             >
-              <v-sheet class="bg-about">
+              <v-sheet class="bg-about"  data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-out">
                 <v-hover v-slot="{ isHovering, props }">
                   <v-card
                   rounded="xl"
@@ -365,7 +368,7 @@
         </template>
         <template v-slot:footer="{ page, pageCount }">
           <v-footer
-            class="justify-center text-body-2 mt-4 w-75 mx-auto"
+            class="justify-center text-body-2 mt-4 mb-md-16 w-md-75 mx-auto"
           >
             Total PROJECTS: {{ project.length }}
             <div class="mx-4">
