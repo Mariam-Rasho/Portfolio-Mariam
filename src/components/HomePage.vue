@@ -17,7 +17,7 @@
 
           <v-col cols="auto">
             <v-btn icon="mdi mdi-facebook" class="bg-indigo-lighten-1" data-aos="zoom-in"
-            data-aos-duration="4000"></v-btn>
+            data-aos-duration="4000" href="https://www.facebook.com/mariam.rasho"></v-btn>
           </v-col>
           <v-col cols="auto">
             <v-btn icon="mdi mdi-github" class="bg-indigo-lighten-1" data-aos="zoom-in"
@@ -29,7 +29,7 @@
           </v-col>
         </v-row>
       <v-col class="mt-16">
-            <v-btn rounded="xl" size="large" class="text-blue-lighten-5 bg-indigo-lighten-1 text-h6" href="/Mariam Rasho(cv).pdf" >My resume</v-btn>
+            <v-btn rounded="xl" size="large" class="text-blue-lighten-5 bg-indigo-lighten-1 text-h6" href="/Mariam Rasho(cv).pdf" >Download CV</v-btn>
           </v-col>
     </v-responsive>
   </v-container>
