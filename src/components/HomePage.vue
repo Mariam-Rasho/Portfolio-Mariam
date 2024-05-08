@@ -12,7 +12,7 @@
       <v-row  align="center" justify="center"  class="mt-16 pt-16"   data-aos="fade-up"  data-aos-duration="4000">
           <v-col cols="auto">
             <v-btn icon="mdi mdi-linkedin" class="bg-indigo-lighten-1"
-           ></v-btn>
+          href="https://www.linkedin.com/in/mariam-rasho-4388241b5/" ></v-btn>
           </v-col>
 
           <v-col cols="auto">
@@ -21,11 +21,11 @@
           </v-col>
           <v-col cols="auto">
             <v-btn icon="mdi mdi-github" class="bg-indigo-lighten-1" data-aos="zoom-in"
-            data-aos-duration="4000"></v-btn>
+            data-aos-duration="4000" href="https://github.com/Mariam-Rasho/"></v-btn>
           </v-col>
           <v-col cols="auto">
             <v-btn icon="mdi mdi-gmail" class="bg-indigo-lighten-1" data-aos="zoom-in"
-            data-aos-duration="4000"></v-btn>
+            data-aos-duration="4000" href="mailto:rashomariam242@gmail.com"></v-btn>
           </v-col>
         </v-row>
       <v-col class="mt-16">

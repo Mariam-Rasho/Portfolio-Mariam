@@ -388,6 +388,13 @@
         value:"SeeAll",
         project: [
           {
+            name:'Portfolio',
+            color:'14, 151, 210',
+            src:'/images/Screenshot (402).png',
+            code:'https://github.com/Mariam-Rasho/Portfolio-Mariam',
+            demo:'https://portfolio-mariam-iota.vercel.app/',
+          },
+          {
             name: 'E-Commerce',
             color: '14, 151, 210',
             src: '/images/Screenshot (361).png',
