@@ -37,7 +37,7 @@
         <v-col md="5" cols="12" class="pa-0" data-aos="fade-left" data-aos-duration="3000">
           <v-img width="100%" src="/images/photo_2024-05-04_12-17-26-removebg-preview.png"/>
         </v-col>
-        <v-col md="6" cols="12" class="my-16 pt-16" data-aos="fade-right" data-aos-duration="3000">
+        <v-col md="6" cols="12" class="my-16 pt-md-16" data-aos="fade-right" data-aos-duration="3000">
         <h1 class="mb-8">Education</h1>
         <div class="text-h5">
           2016 - 2022
@@ -49,7 +49,7 @@
         </div>
         </div>
         </v-col>
-        <v-col md="3" cols="12" class="my-16 pt-16 mx-auto" data-aos="fade-left" data-aos-duration="3000">
+        <v-col md="3" cols="12" class="my-16 pt-md-16 mx-auto" data-aos="fade-left" data-aos-duration="3000">
           <h1 class="mb-8">Certification</h1>
           <div class="text-h5">
             3/2023 - 11/2023

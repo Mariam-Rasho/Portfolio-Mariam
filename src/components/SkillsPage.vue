@@ -21,7 +21,7 @@
     <p class="text-h6" data-aos="fade-right" data-aos-duration="3000">translating concepts into interactive prototypes for testing and refinement, ensuring functional and engaging end products</p>
     </v-col>
 <v-col md="8" cols="12">
-    <h1 class="text-indigo-lighten-1 text-h4 mt-16 pt-4" data-aos="fade-up" data-aos-duration="1500">PROGRAMMING <span class="mdi mdi-xml "></span></h1>
+    <h1 class="text-indigo-lighten-1 text-h4 mt-md-16 pt-4" data-aos="fade-up" data-aos-duration="1500">PROGRAMMING <span class="mdi mdi-xml "></span></h1>
     <v-row class="mb-16 mt-8" data-aos="fade-up" data-aos-duration="3000">
 <v-col md="3" cols="6" class="text-h6"><span class="mdi mdi-language-html5 text-indigo-lighten-1 text-h5"></span>HTML5</v-col>
 <v-col md="3" cols="6" class="text-h6"><span class="mdi mdi-language-css3 text-indigo-lighten-1 text-h5"></span>CSS3</v-col>
