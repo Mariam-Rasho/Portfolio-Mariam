@@ -5,8 +5,8 @@
       data-aos-duration="2000"
       data-aos-offset="200"
       data-aos-easing="ease-in-out">Mariam Rasho</h1>
-      <div class="text-deep-purple-accent-1 text-h3 mt-7">
-        <vue-typewriter-effect :strings="['Front End Developer', 'Web Design',]" ></vue-typewriter-effect>
+      <div class="text-deep-purple-accent-1 text-md-h3 mt-7">Front End Developer
+        <!-- <vue-typewriter-effect :strings="['Front End Developer', 'Web Design',]" ></vue-typewriter-effect> -->
       </div>
 
       <v-row  align="center" justify="center"  class="mt-16 pt-16"   data-aos="fade-up"  data-aos-duration="4000">

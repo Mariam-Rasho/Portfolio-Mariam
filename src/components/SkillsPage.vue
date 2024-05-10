@@ -30,6 +30,7 @@
 <v-col md="3" cols="6" class="text-h6"><span class="mdi mdi-bootstrap text-indigo-lighten-1 text-h5"></span>Bootstrap</v-col>
 <v-col md="3" cols="6" class="text-h6"><span class="mdi mdi-bulma text-indigo-lighten-1 text-h5"></span>Bulma</v-col>
 <v-col md="3" cols="6" class="text-h6"><span class="mdi mdi-vuetify text-indigo-lighten-1 text-h5"></span>Vuetify</v-col>
+<v-col md="3" cols="6" class="text-h6"><span class="mdi mdi-github text-indigo-lighten-1 text-h5"></span>GitHub</v-col>
     </v-row>
 
 </v-col>

@@ -26,7 +26,7 @@
 </div>
 </v-col>
 <v-col class="text-center  d-md-none d-xm-flex" cols="auto">
-  <v-menu width="100%" >
+  <v-menu width="100%" height="50%">
   <template v-slot:activator="{ props }">
     <v-app-bar-nav-icon
       v-bind="props"
@@ -34,22 +34,33 @@
     </v-app-bar-nav-icon>
   </template>
   <v-list class="mt-2 text-center text-white">
-
-      <v-btn variant="text" to="Home">
-        Home
-      </v-btn>
-      <v-btn variant="text" to="About">
-About
-      </v-btn>
-      <v-btn variant="text" to="Skills">
-        Skills
-      </v-btn>
-      <v-btn variant="text" to="Project">
-        Projects
-      </v-btn>
-      <v-btn variant="text" to="Contact">
-        Contact
-      </v-btn>
+<v-row class="w-75 mx-auto" align="center" justify="center" >
+        <v-col cols="12" >
+          <v-btn variant="text" to="Home">
+            Home
+          </v-btn>
+        </v-col>
+        <v-col cols="12">
+          <v-btn variant="text" to="About">
+            About
+          </v-btn>
+        </v-col>
+        <v-col cols="12" >
+          <v-btn variant="text" to="Skills">
+            Skills
+          </v-btn>
+        </v-col>
+        <v-col cols="12" >
+          <v-btn variant="text" to="Project">
+            Projects
+          </v-btn>
+        </v-col>
+        <v-col cols="12" >
+          <v-btn variant="text" to="Contact">
+            Contact
+          </v-btn>
+        </v-col>
+</v-row>
   </v-list>
   </v-menu>
 </v-col>
