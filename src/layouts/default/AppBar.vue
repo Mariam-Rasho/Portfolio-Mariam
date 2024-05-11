@@ -36,7 +36,7 @@
   <v-list class="mt-2 text-center text-white">
 <v-row class="w-75 mx-auto" align="center" justify="center" >
         <v-col cols="12" >
-          <v-btn variant="text" to="Home">
+          <v-btn variant="text" to="/">
             Home
           </v-btn>
         </v-col>

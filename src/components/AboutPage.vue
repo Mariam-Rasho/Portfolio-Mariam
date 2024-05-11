@@ -6,7 +6,7 @@
 
           <div class="pb-14"><p class="text-h6" data-aos="fade-right" data-aos-duration="1500">My Intro</p>
           <h1 class="text-h3 font-weight-bold text-indigo-lighten-1 mb-6" data-aos="fade-right" data-aos-duration="2500">About me</h1>
-          <p class="text-h5" data-aos="fade-right" data-aos-duration="3000">Hi,I'm Mariam Rasho ,<span class="text-blue-lighten-3"> FrontEnd Developer</span>, enjoy developing web applications and designing attractive and easy-to-use user interfaces. I can turn creative ideas into great websites. I always strive to develop my skills, learn everything new, and gain knowledge to achieve greater successes in my future career.</p>
+          <p class="text-h5" data-aos="fade-right" data-aos-duration="3000">Hi,I'm Mariam Rasho ,<span class="text-indigo-lighten-2"> FrontEnd Developer</span>, enjoy developing web applications and designing attractive and easy-to-use user interfaces. I can turn creative ideas into great websites. I always strive to develop my skills, learn everything new, and gain knowledge to achieve greater successes in my future career.</p>
           </div>
           <h1 class="mb-8" data-aos="fade-right" data-aos-duration="2500">Information</h1>
           <v-row align="center"  class=" text-h6" data-aos="fade-right" data-aos-duration="3000">
@@ -37,7 +37,7 @@
         <v-col md="5" cols="12" class="pa-0" data-aos="fade-left" data-aos-duration="3000">
           <v-img width="100%" src="/images/photo_2024-05-04_12-17-26-removebg-preview.png"/>
         </v-col>
-        <v-col md="6" cols="12" class="my-16 pt-md-16" data-aos="fade-right" data-aos-duration="3000">
+        <v-col md="6" cols="12" class="my-md-16 my-4 pt-md-16" data-aos="fade-right" data-aos-duration="3000">
         <h1 class="mb-8">Education</h1>
         <div class="text-h5">
           2016 - 2022
@@ -49,7 +49,7 @@
         </div>
         </div>
         </v-col>
-        <v-col md="3" cols="12" class="my-16 pt-md-16 mx-auto" data-aos="fade-left" data-aos-duration="3000">
+        <v-col md="3" cols="12" class="my-md-16 my-4 pt-md-16 mx-auto" data-aos="fade-left" data-aos-duration="3000">
           <h1 class="mb-8">Certification</h1>
           <div class="text-h5">
             3/2023 - 11/2023

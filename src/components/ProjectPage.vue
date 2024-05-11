@@ -368,12 +368,17 @@
         </template>
         <template v-slot:footer="{ page, pageCount }">
           <v-footer
-            class="justify-center text-body-2 mt-4 mb-md-16 w-md-75 mx-auto"
-          >
-            Total PROJECTS: {{ project.length }}
-            <div class="mx-4">
-              Page {{ page }} of {{ pageCount }}
-            </div>
+            class="justify-center text-center bg-deep-purple-lighten-5 mt-4 mb-md-16 w-md-75 mx-auto text-h6"
+          ><v-row align="center" justify="center" >
+            <v-col cols="12" md="3">
+              Total Project:
+                <span class="text-indigo mx-3">{{ project.length }}</span>
+            </v-col>
+              <v-col cols="12" md="3" >
+                 Page:
+                <span class="text-indigo  mx-2">{{ page }}</span>  of {{ pageCount }}
+              </v-col>
+          </v-row>
           </v-footer>
         </template>
       </v-data-iterator>

@@ -1,12 +1,11 @@
 <template>
   <v-container class="fill-height bg-image" fluid >
     <v-responsive class="align-center text-center fill-height" data-aos="zoom-in" data-aos-duration="2000">
-      <h1 class="text-md-h1 font-weight-medium text-blue-lighten-5" data-aos="zoom-in"
+      <h1 class="text-md-h1 text-h4  font-weight-medium text-blue-lighten-5" data-aos="zoom-in"
       data-aos-duration="2000"
       data-aos-offset="200"
       data-aos-easing="ease-in-out">Mariam Rasho</h1>
-      <div class="text-deep-purple-accent-1 text-md-h3 mt-7">Front End Developer
-        <!-- <vue-typewriter-effect :strings="['Front End Developer', 'Web Design',]" ></vue-typewriter-effect> -->
+      <div class="text-deep-purple-accent-1 text-md-h3 text-h5 mt-7">Front End Developer
       </div>
 
       <v-row  align="center" justify="center"  class="mt-16 pt-16"   data-aos="fade-up"  data-aos-duration="4000">
