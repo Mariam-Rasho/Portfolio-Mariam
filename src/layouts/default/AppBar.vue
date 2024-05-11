@@ -26,7 +26,7 @@
 </div>
 </v-col>
 <v-col class="text-center  d-md-none d-xm-flex" cols="auto">
-  <v-menu width="100%" height="50%">
+  <v-menu width="100%" height="47%">
   <template v-slot:activator="{ props }">
     <v-app-bar-nav-icon
       v-bind="props"
