@@ -26,7 +26,7 @@
 </div>
 </v-col>
 <v-col class="text-center  d-md-none d-xm-flex" cols="auto">
-  <v-menu width="100%" height="47%">
+  <v-menu width="100%">
   <template v-slot:activator="{ props }">
     <v-app-bar-nav-icon
       v-bind="props"
@@ -34,31 +34,21 @@
     </v-app-bar-nav-icon>
   </template>
   <v-list class="mt-2 text-center text-white">
-<v-row class="w-75 mx-auto" align="center" justify="center" >
+<v-row class="w-75 mx-auto" align="center">
         <v-col cols="12" >
-          <v-btn variant="text">
             <router-link to="/" class="text-white text-h6"> Home</router-link>
-          </v-btn>
         </v-col>
         <v-col cols="12">
-          <v-btn variant="text">
             <router-link to="/About" class="text-white text-h6"> About</router-link>
-          </v-btn>
         </v-col>
         <v-col cols="12" >
-          <v-btn variant="text">
             <router-link to="/Skills" class="text-white text-h6"> Skills</router-link>
-          </v-btn>
         </v-col>
         <v-col cols="12" >
-          <v-btn variant="text">
             <router-link to="/Project" class="text-white text-h6"> Projects</router-link>
-          </v-btn>
         </v-col>
         <v-col cols="12" >
-          <v-btn variant="text">
             <router-link to="/Contact" class="text-white text-h6"> Contact</router-link>
-          </v-btn>
         </v-col>
 </v-row>
   </v-list>
@@ -80,5 +70,8 @@ max-width: 100vw !important;
 
 a{
   text-decoration: none;
+}
+.v-list{
+  overflow: hidden !important;
 }
 </style>
