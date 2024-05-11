@@ -36,27 +36,27 @@
   <v-list class="mt-2 text-center text-white">
 <v-row class="w-75 mx-auto" align="center" justify="center" >
         <v-col cols="12" >
-          <v-btn>
+          <v-btn variant="text">
             <router-link to="/" class="text-white text-h6"> Home</router-link>
           </v-btn>
         </v-col>
         <v-col cols="12">
-          <v-btn>
+          <v-btn variant="text">
             <router-link to="/About" class="text-white text-h6"> About</router-link>
           </v-btn>
         </v-col>
         <v-col cols="12" >
-          <v-btn>
+          <v-btn variant="text">
             <router-link to="/Skills" class="text-white text-h6"> Skills</router-link>
           </v-btn>
         </v-col>
         <v-col cols="12" >
-          <v-btn>
+          <v-btn variant="text">
             <router-link to="/Project" class="text-white text-h6"> Projects</router-link>
           </v-btn>
         </v-col>
         <v-col cols="12" >
-          <v-btn>
+          <v-btn variant="text">
             <router-link to="/Contact" class="text-white text-h6"> Contact</router-link>
           </v-btn>
         </v-col>
