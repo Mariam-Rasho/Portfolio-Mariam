@@ -35,7 +35,6 @@
 </template>
 
 <script setup>
-import VueTypewriterEffect from "vue-typewriter-effect";
 </script>
 <style>
 
